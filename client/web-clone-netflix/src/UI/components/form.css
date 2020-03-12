@@ -1,0 +1,14 @@
+.form-simple{
+    color:rgb(102,102,102);
+    padding: 5vw;
+    width: 30vw;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.form-simple section{
+    margin-top:1rem;
+    margin-bottom:3rem;
+}
+.form-simple input{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}

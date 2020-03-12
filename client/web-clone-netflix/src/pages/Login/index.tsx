@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 
 import netflixLogo from "../../assets/logos/netflix_red_simple.svg";
 import facebookLogo from "../../assets/icons/svg/036-facebook.svg";
-import "../../UI/general/index.css";
+import "../../UI/pages/login.css";
 
 class Login extends Component{
 
     selectChange = (event: any) => {
         console.log(event.target.value)
     }
+    
     render(){
         return(
             <div className="page-fullscreen dflex flex-column login-background">

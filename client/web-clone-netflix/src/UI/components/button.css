@@ -1,0 +1,23 @@
+.btn{
+    background-color: transparent;
+    border: none;
+    color:inherit;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: transparent;
+}
+.btn.round{
+    border-radius: 5px;
+}
+
+.btn.md{
+    padding: 0.5rem;    
+}
+.btn.red{
+    background-color: red;
+}

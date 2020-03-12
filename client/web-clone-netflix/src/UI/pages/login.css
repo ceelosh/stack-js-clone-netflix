@@ -1,0 +1,17 @@
+@import url('../components/input.css');
+@import url('../components/button.css');
+@import url('../components/footer.css');
+@import url('../components/form.css');
+@import url('../components/icon.css');
+@import url('../components/logo.css');
+@import url('../components/navbar.css');
+
+@import url('../general/index.css');
+
+.login-background{
+    background-image: url(../../assets/images/sense8_wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
