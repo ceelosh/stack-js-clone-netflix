@@ -1,0 +1,7 @@
+#home{
+    height: 100%;
+}
+
+#home.background{
+    background-color: rgb(61,62,63);
+}

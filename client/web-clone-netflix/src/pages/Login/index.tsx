@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import netflixLogo from "../../assets/logos/netflix_red_simple.svg";
-import facebookLogo from "../../assets/icons/svg/036-facebook.svg";
 import "../../UI/pages/login.css";
 
 class Login extends Component{
@@ -34,14 +33,6 @@ class Login extends Component{
                                 Remember me
                             </label>
                             
-                        </section>
-                        
-                        <section className="dflex flex-column">
-                            <div className="facebook-login">
-                                <button type="button" className="btn-lg dflex a-items-center">
-                                    <img src={facebookLogo} alt="button login facebook" className="icon-sm margin-r-sm"/><span>Login with Facebook</span>
-                                </button>
-                            </div>
                         </section>
                     </form>
                 </main>
