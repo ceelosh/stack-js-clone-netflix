@@ -1,7 +1,3 @@
-.page-fullscreen{
-    height: 100%;
-}
-
 /* FLEX */
 .dflex{
     display: flex;
@@ -31,6 +27,9 @@
 .a-items-center{
     align-items: center;
 }
+.a-items-initial{
+    align-items: initial;
+}
 
 /* CONTAINER */
 .container{
@@ -48,4 +47,20 @@
 }
 .margin-r-sm{
     margin-right: 3%;
+}
+.margin-t-sm{
+    margin-top: 3%;
+}
+
+/* TEXT ALIGN */
+.text-center{
+    text-align: center;
+}
+
+/* BORDER */
+.border-gray-1{
+    border-color: gray;
+}
+.border-slim{
+    border-width: 1px;
 }

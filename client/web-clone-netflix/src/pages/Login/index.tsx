@@ -12,7 +12,7 @@ class Login extends Component{
     
     render(){
         return(
-            <div className="page-fullscreen dflex flex-column login-background">
+            <div className="dflex flex-column login-background">
                 <header>
                     <nav className="dflex navbar just-content-flex-start">
                         <img src={netflixLogo} alt="logo" className="logo simple" />
@@ -26,10 +26,10 @@ class Login extends Component{
                             <input type="text" placeholder="Email or phone number" className="round"/>
                             <input type="password" placeholder="Password" className="round" />                            
                             <br/>
-                            <button type="button" className="btn md round red font-white">
+                            <button type="button" className="btn-lg p-md round c-red font-white">
                                 <strong>Sign up</strong>
                             </button>
-                            <label>
+                            <label className="c-pointer">
                                 <input type="checkbox"/>
                                 Remember me
                             </label>
@@ -38,12 +38,9 @@ class Login extends Component{
                         
                         <section className="dflex flex-column">
                             <div className="facebook-login">
-                                <button type="button" className="btn dflex a-items-center">
+                                <button type="button" className="btn-lg dflex a-items-center">
                                     <img src={facebookLogo} alt="button login facebook" className="icon-sm margin-r-sm"/><span>Login with Facebook</span>
                                 </button>
-                            </div>
-                            <div>
-                                <span>New to Netflix? Sign up now</span>
                             </div>
                         </section>
                     </form>

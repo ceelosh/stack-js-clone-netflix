@@ -1,0 +1,42 @@
+@import url('../general/index.css');
+@import url('../components/navbar.css');
+@import url('../components/button.css');
+
+#profile-management{
+    height: 100%;
+}
+
+#profile-management.default-background{
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#profiles .profile-box{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
+}
+
+.profile-box{
+    width: 20%;
+}
+
+.profile-box .profile-photo{
+    width: 100%;
+    height: auto;
+}
+
+.profile-box .profile-photo img{
+    width: 100%;
+    border-width: 1px;
+    border-color: rgb(102,102,102);
+    border-style: solid;
+    box-shadow: 1px 1px rgb(102,102,102);
+
+}
+.profile-box .profile-name{
+    font-size: 1.5rem;
+}

@@ -15,3 +15,7 @@
     background-size: cover;
 
 }
+
+.c-pointer{
+    cursor: pointer;
+}
