@@ -1,8 +1,13 @@
+require('dotenv').config();
 const express = require('express');
+const bodyParser = require('body-parser');
+
+const consign = require('consign');
+
 const app = express();
 
-app.get('/', (req, res) => {
-    res.send('Hello World!')
-});
-
-app.listen(8080)
+consign()
+    .include('middlewares/parsers.js')
+    .then('routes')
+    .then('config/boot.js')
+    .into(app);
