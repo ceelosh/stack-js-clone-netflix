@@ -1,7 +1,6 @@
-
-module.export = {
-    host: "127.0.0.1:3306",
+module.exports = {
+    host: "localhost",
     user: "root",
-    password: "1234",
-    database: "clone-netflix"
+    password: "password",
+    database: "clonenetflix"
 }
