@@ -1,8 +1,8 @@
 require('dotenv').config();
 const express = require('express');
 const consign = require('consign');
-const database = require('./database/db');
-database(() => {
+const databaseConnection = require('./database/connection');
+databaseConnection(() => {
     const app = express();
 
     consign()
