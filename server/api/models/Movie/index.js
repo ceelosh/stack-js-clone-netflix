@@ -1,5 +1,6 @@
+class Movie{
 
-const db = require('../../database/db.js');
+}
 
 const Movie = function(movie){
     this.title = movie.title;
